@@ -1,0 +1,5 @@
+cat IA.txt | tr '' '\n' | sort | uniq -c | sort -nr | head
+
+cat haiku.txt | ./capitalize.py
+#Forma equivalente
+./capitalize.py < haiku.txt

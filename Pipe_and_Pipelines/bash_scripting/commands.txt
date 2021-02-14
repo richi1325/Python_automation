@@ -1,0 +1,2 @@
+#For retry.sh script
+./retry.sh ./random-exit.py
